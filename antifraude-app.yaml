@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/criptomoney/antifraude-app.git  # Usaremos un repo local para la demo
+    repoURL: https://github.com/criptomoney0101/antifraude-app.git
     targetRevision: HEAD
     path: helm/antifraude
   destination:
