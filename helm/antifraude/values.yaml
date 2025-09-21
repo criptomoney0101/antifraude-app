@@ -14,7 +14,7 @@ ingress:
   annotations:
     kubernetes.io/ingress.class: nginx
   hosts:
-    - host: antifraude.local
+    - host: antifraude2.local
       paths:
         - path: /
           pathType: Prefix
