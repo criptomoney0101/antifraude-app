@@ -14,7 +14,7 @@ fraud_patterns = [
 
 @app.route('/health', methods=['GET'])
 def health_check():
-    return jsonify({"status": "healthy", "timestamp": time.time()})
+    return jsonify({"status": "healthy-argocd", "timestamp": time.time()})
 
 @app.route('/api/transaction', methods=['POST'])
 def process_transaction():
