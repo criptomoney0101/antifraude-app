@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: antifraude-app
-  tag: latest
+  tag: 20250921193000
   pullPolicy: IfNotPresent
 
 service:
